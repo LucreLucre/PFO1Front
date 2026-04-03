@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lucrecia Vigo | Desarrolladora Web</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <!-- Google Fonts: DM Sans para cuerpo, DM Serif Display para títulos -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- HEADER: Logo y nombre principal del sitio -->
+  <header class="site-header">
+    <div class="header-inner">
+      <span class="logo">LV<span class="logo-dot">.</span></span>
+      <p class="header-tagline">Desarrolladora Web</p>
+    </div>
+  </header>
+
+  <!-- NAV: Barra de navegación con enlaces internos a las secciones del portafolio -->
+  <nav class="site-nav">
+    <ul class="nav-list">
+      <li><a href="#sobre-mi" class="nav-link">Sobre mí</a></li>
+      <li><a href="#tarjetas" class="nav-link">Proyectos</a></li>
+      <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+      <li><a href="#contacto" class="nav-link">Contacto</a></li>
+      <li><a href="#peliculas" class="nav-link">Películas</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <!-- SOBRE MÍ: Presentación personal con foto y biografía -->
+    <section id="sobre-mi" class="section section-about">
+      <div class="about-grid">
+        <div class="about-text">
+          <span class="section-label">01 — Sobre mí</span>
+          <h2 class="section-title">Hola, soy<br /><em>Lucrecia Vigo</em></h2>
+          <p class="about-bio">
+            Estudiante de la Tecnicatura Superior en Desarrollo de Software, con experiencia
+            real en proyectos que resuelven problemas concretos: desde sistemas de gestión
+            municipal hasta plataformas para federaciones deportivas. Me apasiona construir
+            software que funcione, que sea claro y que haga la vida un poco más simple.
+          </p>
+          <p class="about-bio">
+            Mi enfoque está en el backend, pero cada vez me interesa más el puente entre
+            la lógica y la interfaz. Siempre estoy buscando aprender algo nuevo, mejorar mis habilidades y colaborar en proyectos que me desafíen.
+          </p>
+          <a href="#contacto" class="btn-primary">Escribime</a>
+        </div>
+        <div class="about-image-wrap">
+          <!-- Foto de perfil -->
+          <img
+            src="./img/Perfil.jpg"
+            alt="Foto de perfil de Lucrecia Vigo"
+            class="about-img"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- TARJETAS: Proyectos desarrollados, organizados con Flexbox -->
+    <section id="tarjetas" class="section section-cards">
+      <span class="section-label">02 — Proyectos</span>
+      <h2 class="section-title">Algunos trabajos</h2>
+      <div class="cards-grid">
+
+        <article class="card">
+          <div class="card-img-wrap">
+            <img
+              src="./img/line-icon-for-formalities-vector.jpg"
+              alt="Sistema de gestión municipal con módulos de multas, expedientes y turnos"
+              class="card-img"
+            />
+          </div>
+          <div class="card-body">
+            <span class="card-tag">Backend</span>
+            <h3 class="card-title">Gestión Municipal</h3>
+            <p class="card-desc">
+              Desarrollo de tareas de backend para un sistema de gestión municipal.
+              Módulos de multas, expedientes y gestión de turnos ciudadanos.
+            </p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-img-wrap">
+            <img
+              src="./img/tenis.jfif"
+              alt="Sistema completo para la Federación Santafesina de Tenis"
+              class="card-img"
+            />
+          </div>
+          <div class="card-body">
+            <span class="card-tag">Full System</span>
+            <h3 class="card-title">Federación Santafesina de Tenis</h3>
+            <p class="card-desc">
+              Sistema completo para la administración de la federación: jugadores,
+              torneos, sorteo de partidos y resultados.
+            </p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-img-wrap">
+            <img
+              src="./img/ticket.png"
+              alt="Sistema de impresión de tickets e informes de ventas"
+              class="card-img"
+            />
+          </div>
+          <div class="card-body">
+            <span class="card-tag">Reporting</span>
+            <h3 class="card-title">Tickets e Informes de Ventas</h3>
+            <p class="card-desc">
+              Sistema de impresión de tickets y generación de informes de ventas.
+              Integración con impresoras de punto de venta.
+            </p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- HABILIDADES: Tecnologías dominadas, en aprendizaje y hobbies (tabla) -->
+    <section id="habilidades" class="section section-skills">
+      <span class="section-label">03 — Habilidades</span>
+      <h2 class="section-title">Tecnologías & más</h2>
+      <div class="skills-tables">
+
+        <div class="skills-block">
+          <h3 class="skills-subtitle">Domino</h3>
+          <table class="skills-table">
+            <thead>
+              <tr>
+                <th>Tecnología</th>
+                <th>Área</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>PHP, Python</td><td>Backend</td></tr>
+              <tr><td>MySQL</td><td>Base de datos</td></tr>
+              <tr><td>HTML & CSS</td><td>Frontend</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="skills-block">
+          <h3 class="skills-subtitle">Aprendiendo</h3>
+          <table class="skills-table">
+            <thead>
+              <tr>
+                <th>Tecnología</th>
+                <th>Área</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>JavaScript</td><td>Frontend / Backend</td></tr>
+              <tr><td>React</td><td>Frontend</td></tr>
+              <tr><td>Node.js</td><td>Backend</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="skills-block">
+          <h3 class="skills-subtitle">Hobbies</h3>
+          <ul class="hobbies-list">
+            <li>Lectura</li>
+            <li>Viajes</li>
+            <li>Animales</li>
+            <li>Huerta orgánica</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACTO: Formulario con nombre, apellido, email y teléfono -->
+    <section id="contacto" class="section section-contact">
+      <span class="section-label">04 — Contacto</span>
+      <h2 class="section-title">¿Hablamos?</h2>
+      <p class="contact-intro">
+        Estoy abierta a nuevos proyectos, colaboraciones o simplemente charlar de tecnología.
+      </p>
+      <form class="contact-form" action="#" method="post">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+          </div>
+          <div class="form-group">
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" name="apellido" placeholder="Tu apellido" required />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="tu@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="+54 341 000 0000" />
+          </div>
+        </div>
+        <button type="submit" class="btn-primary btn-submit">Enviar mensaje</button>
+      </form>
+    </section>
+
+    <!-- PELÍCULAS: Las películas no les llegan ni a los talones a los libros... Son sólo 3 que recuerdo haber visto -->
+    <section id="peliculas" class="section section-movies">
+      <span class="section-label">05 — Películas</span>
+      <h2 class="section-title">Mis favoritas</h2>
+      <div class="movies-grid">
+
+        <article class="movie-card">
+          <img
+            src="./img/Bastardos.webp"
+            alt="Poster de Bastardos sin gloria (2009), dirigida por Quentin Tarantino"
+            class="movie-img"
+          />
+          <div class="movie-info">
+            <h3 class="movie-title">Bastardos sin gloria</h3>
+            <span class="movie-year">2009 · Quentin Tarantino</span>
+            <p class="movie-desc">
+                Tarantino en su máxima expresión: diálogos afilados, personajes inolvidables
+                y una historia de venganza que reescribe la historia con estilo.
+            </p>
+          </div>
+        </article>
+
+        <article class="movie-card">
+          <img
+            src="./img/UP.webp"
+            alt="Póster de UP, Una aventura de altura (2009), dirigida por Pete Docter"
+            class="movie-img"
+          />
+          <div class="movie-info">
+            <h3 class="movie-title">UP</h3>
+            <span class="movie-year">2009 · Pete Docter</span>
+            <p class="movie-desc">
+                Pixar en su mejor momento. Una historia de amistad, aventura y superación
+                que emociona a grandes y chicos por igual.
+            </p>
+          </div>
+        </article>
+
+        <article class="movie-card">
+          <img
+            src="./img/Mente.jpg"
+            alt="Póster de Una mente brillante (2001), dirigida por Ron Howard"
+            class="movie-img"
+          />
+          <div class="movie-info">
+            <h3 class="movie-title">Una mente brillante</h3>
+            <span class="movie-year">2001 · Ron Howard</span>
+            <p class="movie-desc">
+              La historia de la vida de John Nash, un matemático genio que lucha contra la esquizofrenia.
+            </p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER: Información adicional, créditos y redes sociales -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span class="logo">LV<span class="logo-dot">.</span></span>
+      <p class="footer-copy">© 2026 Lucrecia Vigo — Trabajo Práctico IFTS N.º29</p>
+      <div class="footer-links">
+        <a href="https://github.com/LucreLucre" target="_blank" class="footer-link" aria-label="GitHub">GitHub</a>
+        <a href="https://www.linkedin.com/in/lucrecia-vigo-1a07ba199/" target="_blank" class="footer-link" aria-label="LinkedIn">LinkedIn</a>
+        <a href="mailto:lucrevigo@gmail.com" class="footer-link" aria-label="Email">Email</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
