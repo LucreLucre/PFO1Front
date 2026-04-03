@@ -6,7 +6,7 @@ Se trata de una **Landing Page de Portafolio Personal** desarrollada con HTML se
 
 🌐 **URL publicada (GitHub Pages):** 
 
-
+https://lucrelucre.github.io/PFO1Front/
 
 ## Checklist — Práctica Formativa Obligatoria 1
 
